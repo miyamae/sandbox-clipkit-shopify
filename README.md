@@ -1,6 +1,6 @@
 # Sandbox for Clipkit Shopify
 
-ES6+とVue.jsをビルドできる、最小限のWebpack環境です。
+ES6+とVue.jsをビルドできる、最小限のwebpack環境です。
 ClipkitのShopifyアイテムの表示カスタマイズの作業に利用できます。
 
 ## 準備
@@ -17,7 +17,7 @@ ClipkitのShopifyアイテムの表示カスタマイズの作業に利用でき
 ```
 http://localhost:8080/ でアクセスできます。
 
-src/main.jsを編集すると、自動コンパイル＆ホットリロードされます。
+`src/main.js` を編集すると、自動コンパイル＆ホットリロードされます。
 
 ## ビルド
 
