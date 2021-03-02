@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./:/app:delegated
+    command: sh -c 'cd /app; yarn serve'
+    ports:
+      - '8080:8080'
+    tty: true
